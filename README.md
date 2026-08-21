@@ -1,6 +1,6 @@
 # Mini Projects 1 and 2
 
-This repository contains two dashboard-based data visualization projects. The summaries below are based on the project outputs in `MiniProject1.pdf` and `MiniProject2.pdf`, together with the uploaded raw and cleaned datasets.
+This repository contains two dashboard-based data visualization projects. The summaries below are based on the project outputs in `MiniProject1.xlsx` and `MiniProject2.pdf`, together with the uploaded raw and cleaned datasets.
 
 ## MiniProject1: Planetary Data Dashboard
 
@@ -53,7 +53,5 @@ Together, the projects demonstrate how dashboards can convert raw records into i
 
 | File | Description |
 |---|---|
-| `Raw.csv` | Original exoplanet dataset with status, minimum-mass, uncertainty, and missing-value fields. |
-| `Cleaned_Exoplanet_Data_Final.csv` | Cleaned exoplanet analysis table with 3,062 complete records and 8 columns. |
-| `MiniProject1.pdf` | Exoplanet dashboard containing the status, mass-ranking, and mass–radius visualizations. |
+| `MiniProject1.xlsx` | Exoplanet dashboard containing the status, mass-ranking, and mass–radius visualizations. |
 | `MiniProject2.pdf` | Chocolate sales dashboard containing product, team, cost, geography, and filter visualizations. |
