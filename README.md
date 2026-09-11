@@ -70,18 +70,10 @@ The analysis is performed on `trends.csv`, tracking search rankings from 2001 to
 
 | Step | Method / Operation | Outcome |
 | --- | --- | --- |
-| Structure Inspection | `df.info()`, `df.dtypes` | Verified column data types: 2 integer fields (`year`, `rank`) and 3 object fields (`location`, `category`, `query`).
-
- |
-| Missing Value Check | `df.isnull().sum()` | Confirmed complete completeness with zero null values across all columns.
-
- |
-| Duplicate Handling | `df.drop_duplicates()` | Cleaned 10 redundant rows to ensure exact uniqueness.
-
- |
-| Cardinality Analysis | `df.nunique()` | Summarized geographical, temporal, and topical coverage across global search topics.
-
- |
+| Structure Inspection | `df.info()`, `df.dtypes` | Verified column data types: 2 integer fields (`year`, `rank`) and 3 object fields (`location`, `category`, `query`).|
+| Missing Value Check | `df.isnull().sum()` | Confirmed complete completeness with zero null values across all columns.|
+| Duplicate Handling | `df.drop_duplicates()` | Cleaned 10 redundant rows to ensure exact uniqueness.|
+| Cardinality Analysis | `df.nunique()` | Summarized geographical, temporal, and topical coverage across global search topics.|
 
 ### Key Findings
 
@@ -99,21 +91,9 @@ The fourth project analyzes long-term historical trading movements across three 
 
 | Stock Dashboard | Visualizations Included | Timeframe Analyzed |
 | --- | --- | --- |
-| Apple Stock Analysis | Line charts of Sum of Close and Sum of Open by Date; Scatter plot of Open vs. Close; Date Slicer
-
- | 12-12-1980 to 02-03-2000
-
- |
-| Google Stock Analysis | Line charts of Sum of Close and Sum of Open by Year; Scatter plot of Open vs. Close; Date Slicer
-
- | 19-08-2004 to 01-04-2020
-
- |
-| Tesla Stock Analysis | Line charts of Sum of Close and Sum of Open by Year; Scatter plot of Open vs. Close; Date Slicer
-
- | 29-06-2010 to 01-04-2020
-
- |
+| Apple Stock Analysis | Line charts of Sum of Close and Sum of Open by Date; Scatter plot of Open vs. Close; Date Slicer| 12-12-1980 to 02-03-2000|
+| Google Stock Analysis | Line charts of Sum of Close and Sum of Open by Year; Scatter plot of Open vs. Close; Date Slicer| 19-08-2004 to 01-04-2020|
+| Tesla Stock Analysis | Line charts of Sum of Close and Sum of Open by Year; Scatter plot of Open vs. Close; Date Slicer| 29-06-2010 to 01-04-2020|
 
 ### Key Findings
 
@@ -141,9 +121,5 @@ The fourth project analyzes long-term historical trading movements across three 
 | --- | --- |
 | `MiniProject1.xlsx` | Exoplanet dashboard containing planet status distributions, mass rankings, and mass–radius scatter plots. |
 | `MiniProject2.pdf` | Chocolate sales dashboard tracking revenue, team distribution, unit box costs, and regional performance. |
-| `DV_trends_dataset_Aishani-Copy1.pdf` | Jupyter notebook detailing data cleaning, schema validation, and profiling of `trends.csv`.
-
- |
-| `Mini_Project_4_Aishani.pdf` | Power BI / visualization report exploring OHLC trends, intraday spreads, and multi-year trajectory analyses for Apple, Google, and Tesla.
-
- |
+| `DV_trends_dataset_Aishani-Copy1.pdf` | Jupyter notebook detailing data cleaning, schema validation, and profiling of `trends.csv`.|
+| `Mini_Project_4_Aishani.pdf` | Power BI / visualization report exploring OHLC trends, intraday spreads, and multi-year trajectory analyses for Apple, Google, and Tesla.|
